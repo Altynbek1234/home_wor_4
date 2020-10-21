@@ -51,7 +51,7 @@ public class Main {
             {
 
 
-                int a ;
+                int a;
                 int b;
                 a = bossDamage + bossDamage / 5;
                 b = (bossDamage / 5) * 4;
@@ -71,15 +71,11 @@ public class Main {
         roundCounter++;
         changeBossDefence();
         bossAngryState();
-       // GolemSkill();
+        // GolemSkill();
         bossHits();
         heroesHit();
         printStatistics();
-        // GolemSkill();
-        System.out.println("*******************");
-        // RandomHero();
 
-        //Golem();
 
 
     }
@@ -130,7 +126,7 @@ public class Main {
             int HeroIndex = r.nextInt(heroesAttackType.length);
 
             if (heroesHealth[i] > 0 && bossHealth > 0) {
-                int a ;
+                int a;
                 int b;
                 a = bossDamage + bossDamage / 5;
                 b = (bossDamage / 5) * 4;
